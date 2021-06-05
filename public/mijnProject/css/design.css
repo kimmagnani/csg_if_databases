@@ -1,11 +1,12 @@
 html,body {
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding:0;
 }
+
 
 body {
     color: blanchedalmond;
-    background-color: maroon;
+   background-color: maroon; 
 }
 
 #container {
@@ -15,8 +16,14 @@ body {
     padding: 0;
 }
 
-img {
+img  {
+    
     width: 60%;
     height: auto;
+    padding: 5px;
     border: 10px solid blanchedalmond;
+    
 }
+
+
+/* <img src="public/mijnProject/images/kookhoed.jpg" alt="kookhoed">

@@ -1,31 +1,48 @@
-<?php
-error_reporting(E_ALL & ~E_NOTICE);
-require('php/database.php');
-
-//maak databaseverbinding met de gegevens uit database.php
-$DBverbinding = mysqli_connect($servernaam, $gebruikersnaam, $wachtwoord, $database);
-// Controleer de verbinding
-if (!$DBverbinding) {
-// Geef de foutmelding die de server teruggeeft en stop met de uitvoer van PHP (die)
-die("Verbinding mislukt: " . mysqli_connect_error());
-}
-else {
-// Dit gedeelte laat je normaliter weg, maar is hier ter illustratie toegevoegd
-echo '<i>verbinding database succesvol</i>';
-}
-?>
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Startpagina</title>
-        <link rel="stylesheet" type="text/css" href="css/design.css">
-    </head>
-    <body>
-        <div id="container">
-            <h1>
-                <?php echo 'een <strong>klein</strong> stukje PHP';?>
-            </h1>
-            <img src="images/cartoon.jpg">
-        </div>
-    </body>
-</html>
+<html>  
+<head>  
+    <title>PHP login system</title>   
+    <link rel = "stylesheet" type = "text/css" href = "css/design.css">   
+</head>  
+<body>  
+    <div id = "frm">  
+        <h1>Login</h1>  
+        <form name="f1" action = "authentication.php" onsubmit = "return validation()" method = "POST"> 
+            <p>  
+                <label> Username: </label>  
+                <input type = "text" id ="user" name  = "user" />  
+            </p>  
+            <p>  
+                <label> Password: </label>  
+                <input type = "password" id ="pass" name  = "pass" />  
+            </p>  
+            <p>     
+                <input type =  "submit" id = "btn" value = "Login" />  
+            </p>  
+        </form>  
+    </div>   
+    <script>  
+            function validation()  
+            {  
+                var id=document.f1.user.value;  
+                var ps=document.f1.pass.value;  
+                if(id.length=="" && ps.length=="") {  
+                    alert("Username and Password fields are empty");  
+                    return false;  
+                }  
+                else  
+                {  
+                    if(id.length=="") {  
+                        alert("Username is empty");  
+                        return false;  
+                    }   
+                    if (ps.length=="") {  
+                    alert("Password field is empty");  
+                    return false;  
+                    }  
+                }  
+                                           
+            }  
+    </script> 
+        <img class="image" src="images/kookhoed.jpg" alt="Hoed">
+</body>     
+</html>  
