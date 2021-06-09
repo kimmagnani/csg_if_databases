@@ -10,11 +10,18 @@ body{
     background:#f3f3f3;  
     padding: 50px;  
 }  
-#btn{  
+#loginknop{  
     color: #fff;  
     background: maroon;  
     padding: 7px;  
-    margin-left: 70%;  
+    margin-left: 0%; 
+    width: 35%; 
+}  
+#aanmakenknop{  
+    color: #fff;  
+    background: maroon;  
+    padding: 7px;  
+    margin-left: 0%;  
 }  
 .center {
   display: block;
