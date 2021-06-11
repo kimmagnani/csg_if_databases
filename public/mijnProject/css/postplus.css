@@ -1,0 +1,11 @@
+body{   
+    background-image: url(../images/achtergrondinlog.jpg);  
+}
+#blok{  
+    border: solid gray 3px;  
+    width:25%;  
+    border-radius: 2px;  
+    margin: 120px auto;  
+    background:#f3f3f3;  
+    padding: 50px;  
+}  

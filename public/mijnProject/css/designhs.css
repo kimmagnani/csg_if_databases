@@ -1,6 +1,6 @@
 body {
-    
-    background: #75b2f8 ;
+
+    background-image: url(../images/okok.png);
     margin : 0px;
 }
 
@@ -11,40 +11,26 @@ h1 {
     font-family: 'Handlee';
     margin:3px;
     padding:50px;
-  
-   
+    display: block;
+    float:left
 }
-
-
-
-h2 {   font-size: 20px;
-    letter-spacing: 3px;
-    color:black;
-   
-    font-family: 'Handlee';
-    margin:0px;
-    padding:50px;
-    float:right;
- }
 img{
     float:left;
     width:10%
    
     
 }
-
 .myDiv {
  
     height:200px;
   border: none;
-  background-color: grey;
+  background-image: url(../images/achtergrondinlog.jpg);
   text-align: left;
+  border-bottom: solid 10px gray ;
 }
-
 li {
   float: left;
 }
-
 li a {
   display: inline-block;
   color: black;
@@ -54,4 +40,17 @@ li a {
 }
 li a:hover {
   background-color: red;
+}
+.knop{
+    background-color:maroon;
+    display:block;
+    text-decoration: none;
+    text-align: center;
+    color: blanchedalmond;
+    margin-top: 2%;
+    padding: 7px;
+    border: solid 3px black;
+    width: 10%;
+    float: right;
+    margin-right: 2%;
 }
