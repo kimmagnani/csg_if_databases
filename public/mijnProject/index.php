@@ -23,7 +23,8 @@
                 </p>
                 <p>
                     <input type="submit" id="loginknop" value="Login" />
-                    <br><a href="php/homescreen.html">account aanmaken</a>
+                    <br>
+                    <br><a href="php/Accountaanmaken.php">Account aanmaken</a>
                 </p>
             </form>
         </div>

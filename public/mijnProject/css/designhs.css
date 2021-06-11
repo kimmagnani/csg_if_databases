@@ -1,11 +1,57 @@
 body {
     
-    background: #ffcccc 
+    background: #75b2f8 ;
+    margin : 0px;
 }
 
 h1 {
-    font-size: 50px;
-    letter-spacing: 3px;
+    font-size: 100px;
+    letter-spacing: 1px;
     color:black;
     font-family: 'Handlee';
+    margin:3px;
+    padding:50px;
+  
+   
+}
+
+
+
+h2 {   font-size: 20px;
+    letter-spacing: 3px;
+    color:black;
+   
+    font-family: 'Handlee';
+    margin:0px;
+    padding:50px;
+    float:right;
+ }
+img{
+    float:left;
+    width:10%
+   
+    
+}
+
+.myDiv {
+ 
+    height:200px;
+  border: none;
+  background-color: grey;
+  text-align: left;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 20px 120.9px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: red;
 }
