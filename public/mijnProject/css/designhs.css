@@ -1,10 +1,10 @@
 body {
 
-    background-image: url(../images/okok.png);
+    background-image: url(../images/okok.jpg);
     margin : 0px;
 }
 
-h1 {
+.Chalaki {
     font-size: 100px;
     letter-spacing: 1px;
     color:black;
@@ -54,3 +54,11 @@ li a:hover {
     float: right;
     margin-right: 2%;
 }
+#blok{  
+    border: solid gray 3px;  
+    width:25%;  
+    border-radius: 2px;  
+    margin: 120px auto;  
+    background:#f3f3f3;  
+    padding: 50px;  
+} 
