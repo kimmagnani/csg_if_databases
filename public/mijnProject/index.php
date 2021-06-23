@@ -15,7 +15,7 @@
             <form name="f1" action="php/authentication.php" onsubmit="return validation()" method="POST">
                 <p>
                     <label> Username: </label>
-                    <br><input type="text" id="user" name="user" />
+                    <br><input type="text" id="user" name="user"/>
                 </p>
                 <p>
                     <label> Password: </label>

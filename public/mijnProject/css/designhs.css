@@ -49,10 +49,27 @@ li a:hover {
     color: blanchedalmond;
     margin-top: 2%;
     padding: 7px;
-    border: solid 3px black;
+    border: solid 2px black;
     width: 10%;
     float: right;
     margin-right: 2%;
+    margin-top: 50px;
+    border-radius:  1000px;
+}
+.knop2{
+    background-color:maroon;
+    display:block;
+    text-decoration: none;
+    text-align: center;
+    color: blanchedalmond;
+    margin-top: 20px;
+    padding: 7px;
+    border: solid 2px black;
+    width: 10%;
+    float: right;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    border-radius:  1000px;
 }
 #blok{  
     border: solid gray 3px;  
@@ -62,3 +79,10 @@ li a:hover {
     background:#f3f3f3;  
     padding: 50px;  
 } 
+#submitpost{  
+    color: #fff;  
+    background: maroon;  
+    padding: 7px;  
+    margin-left: 0%; 
+    width: 35%; 
+}  

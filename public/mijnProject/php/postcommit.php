@@ -7,7 +7,7 @@
 include('connection.php');
 ?>
 <?php
-$sql = "INSERT INTO `login`(`username`, `password`) VALUES ('" . $_POST["newuser"] . "','" . $_POST["newpass"] . "')";
+$sql = "INSERT INTO `Posts`(`Recept`, `Bereidingswijze`, `Bereidingstijd`) VALUES ('" . $_POST["Receptnaam"] . "','" . $_POST["bereidingswijze"] . "','" . $_POST["Tijd"] . "')";
 $dbid = 0;
 $records = mysqli_query($con, $sql);
 if (mysqli_num_rows($records) > 0) {

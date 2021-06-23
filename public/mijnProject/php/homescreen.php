@@ -4,19 +4,11 @@
 <head>
     <title>Chalaki</title>
     <link rel="stylesheet" type="text/css" href="../css/designhs.css">
-
-    <style>
-
-
-    </style>
-
 </head>
 
 <body>
-    <!-- -->
-
     <div class="myDiv">
-        <a href="homescreen.html"><img src="../images/kookhoed.png" alt="hoed"> </a>
+        <a href="homescreen.php"><img src="../images/kookhoed.png" alt="hoed"> </a>
         <h1 class="Chalaki">Chalaki</h1>
         <a class="knop" href="../index.php">Uitloggen</a>
         <br>
@@ -24,17 +16,10 @@
         <br>
         <br>
         <br>
-        <a class="knop" href="postmaken.php">+</a>
+        <a class="knop2" href="postmaken.php">+</a>
     </div>
-
     <div class="menu">
-
-        <ul>
-
-
-        </ul>
     </div>
-
 </body>
 
 </html>
