@@ -86,3 +86,16 @@ li a:hover {
     margin-left: 0%; 
     width: 35%; 
 }  
+.posts{  
+    border: solid gray 3px;  
+    height:700px;
+    width:60%;  
+    border-radius: 2px;  
+    margin: 120px auto;  
+    background:#f3f3f3;  
+    padding: 50px;  
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+    font-style: italic;
+}  
