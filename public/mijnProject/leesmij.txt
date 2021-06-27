@@ -1,0 +1,20 @@
+
+Ik ga met stappen laten zien hoe onze site werkt.
+
+1) U klikt eerst op open ports en dan 8001 : open browser
+
+2) U gaat naar mijn Project
+
+3) Hier kunt u een account aanmaken.
+
+4) Dan komt u in de site.
+
+5) U komt nu automatisch op de homepage, hier kunt u een post aanmaken door op het + te klikken.
+
+6) Ook kan je door de recepten scrollen op de homescreen die er al door andere mensen in zijn gezet.
+
+7) Als u een post aan het aanmaken bent, maar toch weer terug naar de homepage wilt, kunt u op het kookhoed icoontje klikken links bovenin.
+
+8) Als u weer wilt uitloggen klikt op de 'uitloggen' button rechtsbovenin.
+
+9) Dan komt u weer op het uitlog scherm. 

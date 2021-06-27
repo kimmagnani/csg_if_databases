@@ -1,6 +1,6 @@
 body {
 
-    background-image: url(../images/okok.jpg);
+    background-image: url(../images/evenproberen.jpg);
     margin : 0px;
 }
 
@@ -24,7 +24,7 @@ img{
  
     height:200px;
   border: none;
-  background-image: url(../images/achtergrondinlog.jpg);
+  background-image: url(../images/beterbanner.jpg);
   text-align: left;
   border-bottom: solid 10px gray ;
 }
@@ -80,22 +80,22 @@ li a:hover {
     padding: 50px;  
 } 
 #submitpost{  
-    color: #fff;  
+    color: #fff; 
     background: maroon;  
     padding: 7px;  
     margin-left: 0%; 
     width: 35%; 
 }  
 .posts{  
+    background:#f3f3f3;
     border: solid gray 3px;  
     height:700px;
     width:60%;  
-    border-radius: 2px;  
+    border-radius: 3px;  
     margin: 120px auto;  
-    background:#f3f3f3;  
     padding: 50px;  
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: auto; 
     text-align: justify;
     font-style: italic;
 }  
